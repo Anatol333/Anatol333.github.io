@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-   <meta charset="utf-8" />
-   <title>Fly Score</title>
-</head>
-
-<body>
-
-  <canvas id="canvas" width="288" height = "512"></canvas>
-  <script type = "text/javascript">
-  var cvs = document.getElementById("canvas");
+var cvs = document.getElementById("canvas");
 var ctx = cvs.getContext("2d");
 
 var player = new Image();
@@ -150,8 +139,5 @@ function draw() {
 bg.onload = draw;
 
 
-  </script>
 
-</body>
-</html>   
 
